@@ -1,0 +1,32 @@
+%If - else 
+
+num = 4;
+if(num>0)
+      disp ('The number is positive')
+   else
+      disp('The number is negative')
+   
+end
+
+
+% Find even or odd number
+
+num =14;
+if mod(num,2) == 1
+      disp ('This is a odd number')
+   else
+      disp('This is a even number')
+   
+end
+
+
+% while loop
+
+i = 0;
+
+while (i<=10)
+    
+         disp(i)
+         i = i + 1;
+  
+end
