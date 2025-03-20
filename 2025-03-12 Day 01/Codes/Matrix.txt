@@ -1,0 +1,222 @@
+>> A = [1 2 3]
+
+A =
+
+     1     2     3
+
+>> B = [3;4;5]
+
+B =
+
+     3
+     4
+     5
+
+>> C = [2 3 4;5 7 8;3 5 8]
+
+C =
+
+     2     3     4
+     5     7     8
+     3     5     8
+
+
+>> % For find the matrix size
+>> size(C)
+
+ans =
+
+     3     3
+	 
+>> % To find number of elements of a matrix
+>> numel(A)
+
+ans =
+
+     3
+	 
+>> %Column Sum
+>> sum(C,1)
+
+ans =
+
+    10    15    20
+
+>> %Row Sum
+>> sum(C,2)
+
+ans =
+
+     9
+    20
+    16
+	
+>> %Sum of all the elements
+>> sum(sum(C))
+
+ans =
+
+    45
+
+>> %Find minimum value in the columns
+>> min(C)
+
+ans =
+
+     2     3     4
+
+
+>> %Minimum Value of all the elements
+>> min(min(C))
+
+ans =
+
+     2
+	 
+
+>> %Find maximum value in the columns
+>> max(C)
+
+ans =
+
+     5     7     8
+
+>> %Maximum Value of all the elements
+>> max(max(C))
+
+ans =
+
+     8
+	 
+>> %Find Element
+>> C(5)
+
+ans =
+
+     7
+	 
+	 
+>> %Find element using index
+>> C(3,3)
+
+ans =
+
+     8
+	 
+>> %Get all the elements in specify row
+>> C(3,:)
+
+ans =
+
+     3     5     8
+
+>> %Get all the elements in specify column
+>> C(:,2)
+
+ans =
+
+     3
+     7
+     5
+	 
+>> %Get last element of a row
+>> C(1,end)
+
+ans =
+
+     4
+	 
+>> %Get last element of a column
+>> C(end,3)
+
+ans =
+
+     8
+
+>> %Matrix Multiplication
+>> E = [2,3,4;6,5,3;4,3,5]
+
+E =
+
+     2     3     4
+     6     5     3
+     4     3     5
+
+>> J = [1,4;2,6;8,2]
+
+J =
+
+     1     4
+     2     6
+     8     2
+
+>> Multiplication = E * J
+
+Multiplication =
+
+    40    34
+    40    60
+    50    44
+	
+	
+>> %Add value for all elements 
+>> E+4
+
+ans =
+
+     6     7     8
+    10     9     7
+     8     7     9
+	 
+>> %Multiply row elements
+>> C.*E
+
+ans =
+
+     4     9    16
+    30    35    24
+    12    15    40
+
+
+>> %Zeros matrix creating
+>> D = zeros(4,4)
+
+D =
+
+     0     0     0     0
+     0     0     0     0
+     0     0     0     0
+     0     0     0     0
+
+>> %Ones matrix creating
+>> I = ones(2,4)
+
+I =
+
+     1     1     1     1
+     1     1     1     1
+	 
+	 
+	% Join matix after matrix 
+>> [C;E]
+
+ans =
+
+     2     3     4
+     5     7     8
+     3     5     8
+     2     3     4
+     6     5     3
+     4     3     5
+
+
+>> %Join matix next to the matrix 
+>> [C,E]
+
+ans =
+
+     2     3     4     2     3     4
+     5     7     8     6     5     3
+     3     5     8     4     3     5
+
+
