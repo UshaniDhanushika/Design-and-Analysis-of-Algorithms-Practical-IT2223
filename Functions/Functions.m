@@ -1,7 +1,0 @@
-function sum = addNumbers(x,y) %% Better to save your files with your function names
-    sum = x+y;
-end
-%% This function's input and output
-
-
-%% Call for output -> Functions(2,3);
