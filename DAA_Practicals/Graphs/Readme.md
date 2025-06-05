@@ -11,5 +11,4 @@
  |['colorNodes.m'](./Codes/colorNodes.m)|![colorNodes.png](./Outputs/colorNodes.png)|
  |['highlight.m'](./Codes/highlight.m)|![highlight.png](./Outputs/highlight.png)|
  |['nodeColor.m'](./Codes/nodeColor.m)|![nodeColor.png](./Outputs/nodeColor.png)|
- |['shape.m'](./Codes/shape.m)|![shape.png](./Outputs/shape.png)|
  |['exercise.m'](./Codes/exercise.m)|![exercise.png](./Outputs/exercise.png)|
