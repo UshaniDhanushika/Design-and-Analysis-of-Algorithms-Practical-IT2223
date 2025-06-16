@@ -15,3 +15,4 @@
  |['tree.m'](./Codes/tree.m)|![tree.png](./Outputs/tree.png)|
  |['weighted_tree.m'](./Codes/weighted_tree.m)|![weighted_tree.png](./Outputs/weighted_tree.png)|
  |['DFS.m'](./Codes/DFS.m)|![DFS.png](./Outputs/DFS.png)|
+ |['BFS.m'](./Codes/BFS.m)|![BFS.png](./Outputs/BFS.png)|
