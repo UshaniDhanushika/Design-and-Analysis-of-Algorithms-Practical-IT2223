@@ -12,3 +12,5 @@
  |['highlight.m'](./Codes/highlight.m)|![highlight.png](./Outputs/highlight.png)|
  |['nodeColor.m'](./Codes/nodeColor.m)|![nodeColor.png](./Outputs/nodeColor.png)|
  |['exercise.m'](./Codes/exercise.m)|![exercise.png](./Outputs/exercise.png)|
+ |['tree.m'](./Codes/tree.m)|![tree.png](./Outputs/tree.png)|
+ |['weighted_tree.m'](./Codes/weighted_tree.m)|![weighted_tree.png](./Outputs/weighted_tree.png)|
