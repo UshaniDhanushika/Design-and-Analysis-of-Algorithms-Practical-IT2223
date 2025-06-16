@@ -14,3 +14,4 @@
  |['exercise.m'](./Codes/exercise.m)|![exercise.png](./Outputs/exercise.png)|
  |['tree.m'](./Codes/tree.m)|![tree.png](./Outputs/tree.png)|
  |['weighted_tree.m'](./Codes/weighted_tree.m)|![weighted_tree.png](./Outputs/weighted_tree.png)|
+ |['DFS.m'](./Codes/DFS.m)|![DFS.png](./Outputs/DFS.png)|
